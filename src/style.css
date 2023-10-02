@@ -76,3 +76,30 @@ footer {
   grid-area: 4 / 1 / 5 / 2;
   height: 20vh;
 }
+
+/* basic layout 3 */
+#basic-layout-3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;  
+}
+#basic-layout-3 header{ 
+  grid-area: 3 / 1 / 4 /2;
+    height: 20vh;
+}
+#basic-layout-3 nav{ 
+  grid-area: 3 / 2 / 4 /2;
+    height: 20vh;
+}
+#basic-layout-3 main{ 
+  grid-area: 1/ 1 / 1/ 4;
+  height: 80vh;
+}
+#basic-layout-3 footer{ 
+  grid-area: 2 / 1/ 2 /4;
+  height: 20vh;
+}
+
+/* basic layout 4 */
