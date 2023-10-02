@@ -205,24 +205,24 @@ footer {
 /* basic layout 8 */
 #basic-layout-8{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(64, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 16px;
   grid-row-gap: 16px; 
 }
 
 #basic-layout-8 header{ 
-  grid-area: 1 / 1/ 1/ 1;
+  grid-area: 1 / 1/ 1/ 7;
   
 }
 #basic-layout-8 nav{ 
-  grid-area: 2 / 2/ 2/ 2;
+  grid-area: 2 / 3/ 5/ 1;
  
 }
 #basic-layout-8 main{ 
-  grid-area: 3 / 3 / 3/ 3;
+  grid-area: 5 / 5 / 2/ 3;
 }
 
 #basic-layout-8 footer{ 
-  grid-area: 4 / 4 / 4 / 4;
+  grid-area: 5 / 5 / 2 / 7;
 }
