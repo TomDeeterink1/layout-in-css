@@ -152,3 +152,28 @@ footer {
   grid-area: 4/ 5 /6 /3
 
 }
+
+/* basic layout 6 */
+#basic-layout-6{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px; 
+}
+
+#basic-layout-6 header{ 
+  grid-area: 1 / 1/ 1/ 4;
+  
+}
+#basic-layout-6 nav{ 
+  grid-area: 2 / 1/ 5/ 1;
+ 
+}
+#basic-layout-6 main{ 
+  grid-area: 2 / 2/ 5/ 4;
+}
+
+#basic-layout-6 footer{ 
+  grid-area: 1 / 4 / 5 / 5;
+}
