@@ -103,3 +103,28 @@ footer {
 }
 
 /* basic layout 4 */
+#basic-layout-4{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+#basic-layout-4 header{ 
+  grid-area: 1 / 4/ 1/ 4;
+  height: 60vh;
+}
+#basic-layout-4 nav{ 
+  grid-area: 2 / 4 / 3 /4;
+  height: 60vh;
+}
+#basic-layout-4 main{ 
+  grid-area: 1/1 / 1/ 4;
+  height: 60vh;
+}
+#basic-layout-4 footer{ 
+  grid-area: 2 / 1/ 2 /4;
+  height: 60vh;
+}
+
+/* basic layout 4 */
