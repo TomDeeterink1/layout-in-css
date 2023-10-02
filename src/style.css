@@ -177,3 +177,52 @@ footer {
 #basic-layout-6 footer{ 
   grid-area: 1 / 4 / 5 / 5;
 }
+/* basic layout 7 */
+#basic-layout-7{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px; 
+}
+
+#basic-layout-7 header{ 
+  grid-area: 1 / 5/ 1/ 2;
+  
+}
+#basic-layout-7 nav{ 
+  grid-area: 1 / 1/ 6/ 1;
+ 
+}
+#basic-layout-7 main{ 
+  grid-area: 2 / 5 / 5/ 2;
+}
+
+#basic-layout-7 footer{ 
+  grid-area: 5 / 2 / 5 / 5;
+}
+
+/* basic layout 8 */
+#basic-layout-8{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(64, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px; 
+}
+
+#basic-layout-8 header{ 
+  grid-area: 1 / 1/ 1/ 1;
+  
+}
+#basic-layout-8 nav{ 
+  grid-area: 2 / 2/ 2/ 2;
+ 
+}
+#basic-layout-8 main{ 
+  grid-area: 3 / 3 / 3/ 3;
+}
+
+#basic-layout-8 footer{ 
+  grid-area: 4 / 4 / 4 / 4;
+}
