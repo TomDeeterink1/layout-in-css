@@ -127,4 +127,28 @@ footer {
   height: 60vh;
 }
 
-/* basic layout 4 */
+/* basic layout 5 */
+#basic-layout-5{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px; 
+}
+
+#basic-layout-5 header{ 
+  grid-area: 1 / 1/ 1/ 5;
+  height: 20vh;
+}
+#basic-layout-5 nav{ 
+  grid-area: 2/ 3 / 4/5;
+}
+#basic-layout-5 main{ 
+  grid-area: 2/ 3/ 2/ 1;
+  height: 80vh;
+}
+
+#basic-layout-5 footer{ 
+  grid-area: 3/ 4/ 3 /4;
+    height: 20vh;
+}
